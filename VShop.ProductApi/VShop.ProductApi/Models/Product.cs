@@ -9,4 +9,6 @@ public class Product
     public long Stock { get; set; }
     public string? ImageURL { get; set; }
 
+    public Category? category { get; set; }
+    public int? CategoryID { get; set; }
 }
